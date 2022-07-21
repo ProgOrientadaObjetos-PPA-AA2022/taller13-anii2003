@@ -66,7 +66,7 @@ public class Principal {
         c4.establecerCorreo();        
         
         DominioGobierno dominio5 = new DominioGobierno();
-        dominio5.establecerDominio("gobiernoec.gob");
+        dominio5.establecerDominio("gobierno.ec.gob");
         Correo c5 = new Correo();
         c5.establecerDominio(dominio5);
         c5.establecerUserName(e.obtenerUserName());
